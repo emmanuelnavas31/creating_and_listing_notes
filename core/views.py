@@ -8,7 +8,7 @@ from core.forms import NotasForms
 from core.models import Notas
 from core.serializers import NotasSerializer
 
-
+# TODO: This views should be class-based views
 async def index(request):
     formulario = NotasForms()
     return render(request, "notas/index.html", {"form": formulario})
