@@ -13,7 +13,7 @@ class NotasForms(forms.ModelForm):
                 "id": "title",
                 "placeholder": "Nombre de mi tarea",
             }
-        )
+        ),
     )
     categoria = forms.CharField(
         required=True,
@@ -24,7 +24,7 @@ class NotasForms(forms.ModelForm):
                 "id": "categoria",
                 "placeholder": "Categorizar mi tarea",
             }
-        )
+        ),
     )
     contenido = forms.CharField(
         required=True,
@@ -33,10 +33,11 @@ class NotasForms(forms.ModelForm):
                 "class": "form-control",
                 "id": "contenido",
                 "placeholder": "Aquí escribo lo que debo hacer para culminar mi tarea.",
-                "rows": "3"
+                "rows": "3",
             }
-        )
+        ),
     )
+
     class Meta:
         model = Notas
-        fields = ['titulo', 'contenido', 'categoria']
+        fields = ["titulo", "contenido", "categoria"]

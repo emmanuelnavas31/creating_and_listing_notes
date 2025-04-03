@@ -11,6 +11,6 @@ class Notas(models.Model):
         return self.titulo
 
     class Meta:
-        verbose_name = 'Nota'
-        verbose_name_plural = 'Notas'
-        ordering = ['-created_at']
+        verbose_name = "Nota"
+        verbose_name_plural = "Notas"
+        ordering = ["-created_at"]

@@ -6,4 +6,4 @@ from core.models import Notas
 class NotasSerializer(serializers.ModelSerializer):
     class Meta:
         model = Notas
-        fields = '__all__'
+        fields = "__all__"
