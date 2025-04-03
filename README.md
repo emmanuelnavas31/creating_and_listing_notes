@@ -1,6 +1,6 @@
 # 📝 Gestor de Notas - (hackU)
 
-Aplicación web para **crear y listar notas** usando Django, Django REST Framework, Bootstrap y JavaScript.  
+Aplicación web para **crear y listar notas** usando Django, Django REST Framework, Bootstrap y JavaScript.
 Permite agregar notas a través de un formulario y actualiza automáticamente la lista desde una API.
 
 ---
@@ -30,8 +30,8 @@ cd creating_and_listing_notes
 ```bash
 python -m venv venv
 # Para linux
-source venv/bin/activate     
-# En Windows: 
+source venv/bin/activate
+# En Windows:
 venv\Scripts\activate
 ```
 
@@ -50,4 +50,3 @@ python manage.py runserver
 
 Acceso al navegador:
 http://localhost:8000
-
